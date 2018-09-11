@@ -89,12 +89,12 @@ a {
 	-o-transition: background-color .4s linear, color .4s linear;
 	-ms-transition: background-color .4s linear, color .4s linear;
 	transition: background-color .4s linear, color .4s linear;
-	color: #1abc9c;
+	color: #1963ce;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color:#696E74;
+  color:#1963ce;
 }
 
 .nopadding {
@@ -228,7 +228,7 @@ input {
 
 /* Blue Section - Picton */
 #picton {
-	background: #59ABE3;
+	background: #1963ce;
 	width: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -246,7 +246,7 @@ input {
 
 /* Blue Section - Curious */
 #curious {
-	background: #3498DB;
+	background: #105b92;
 	width: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
