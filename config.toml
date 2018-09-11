@@ -248,24 +248,24 @@ theme = "hugo-elate-theme"
       icon = "icon-cloud-upload"
       from = 0
       to = 27350
-      interval = 50
-      speed = 2500
+      interval = 30
+      speed = 3000
 
     [[params.counters.item]]
       description = "Quality"
       icon = "icon-like"
       from = 0
       to = 4302
-      interval = 50
-      speed = 2000
+      interval = 15
+      speed = 3000
 
     [[params.counters.item]]
       description = "$$ Saving"
       icon = "icon-wallet"
-      from = 0.00
-      to = 5800.00
-      interval = 50
-      speed = 1500
+      from = 0
+      to = 5800
+      interval = 15
+      speed = 3000
 
   # Contact section
   [params.contact]
