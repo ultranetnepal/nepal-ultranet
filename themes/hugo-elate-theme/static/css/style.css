@@ -1,4 +1,4 @@
-@font-face {
+f2f3f4@font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
@@ -16,7 +16,7 @@ body {
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
-  color: #777777;
+  color: #f2f3f4;
   color: #7f7f7f;
   background: #fff;
   height: 100%;
