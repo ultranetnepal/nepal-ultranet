@@ -1,0 +1,301 @@
+# Page settings
+baseurl = ""
+title = "Ultranet Communication Nepal"
+description = "Reliable and affordable internet service provider in Karve district, offering high quality internet to speed up browsing experieces and increase business productivities."
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+
+[params]
+
+  custom_css = ["css/modified-custom1.css", "css/modified-custom2.css"]
+
+  # Meta
+  author = "Peranakan Francis"
+  description = 'Malaysian guy lives in Nepal working on his best effort to improve and boost the online browisng experieces for both local and foreign viewvers. He is also a winner of <a href="http://www.mwa.my/2017/may/khimyan-curry-a-malaysian-born-curry-paste">Malaysia Website Award 2017</a>.'
+  email = "francis.tch@gmail.com"
+  # Navigation
+  [params.navigation]
+    brand = "Ultranet"
+    home = "Home"
+    work = "Features"
+    testimonials = "Testimonials"
+    services = "Plans"
+    about = "About"
+    contact = "Contact"
+
+    # Add custom links before or after the default links
+    # Assign a weight to define the order
+
+    #prepended links
+    #[[menu.prepend]]
+    #  url = ""
+    #  name = ""
+    #  weight =
+
+    # postpended links
+  #[[menu.postpend]]
+  #  url = ""
+  #  name = "Login"
+  #  weight = 10
+
+  #  url = ""
+  #  name = "Sign Up"
+  #  weight = 20
+
+  # Hero section
+  [params.hero]
+    title = "Ultranet is"
+    subtitle = 'Fast Internet!'
+    img = "hero.jpg"
+
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Internet for Student"
+    description = ""
+    url = "#"
+    button = "I'm Student"
+    icon = "icon-eyeglass"
+    img = "img_6.jpg"
+
+  [[params.intro.item]]
+    title = "Internet for Home"
+    description = ""
+    url = "#"
+    button = "I'm Home"
+    icon = "icon-home"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Internet for Business"
+    description = ""
+    url = "#"
+    button = "I'm Business"
+    icon = "icon-globe"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Coverages"
+    description = ""
+    url = "#"
+    button = "Am I Covered?"
+    icon = "icon-location-pin"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = true
+    title = ""
+    icon = "icon-control-play"
+    url = "https://vimeo.com/79142264"
+
+
+  # Work section
+  [params.work]
+    enable = true
+    title = "Our Customers"
+    description = "Since our establishment, many have switched to us and stay with us happily until now."
+    footertext = ""
+
+  [[params.work.row]]
+    img = "work_1.jpg"
+    alt = "Embassy of India"
+    title = "Embassy of India"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "work_2.jpg"
+    alt = "Hotel Prince Plaza"
+    title = "Hotel Prince Plaza"
+    subtitle = ""
+
+  [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "Nepal Police"
+      title = "Nepal Police"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "work_4.jpg"
+      alt = "Nepal Red Cross Society"
+      title = "Nepal Red Cross Society"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "work_5.jpg"
+      alt = "Nepal Football Association"
+      title = "Nepal Football Association"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "work_6.jpg"
+      alt = "Prime Bank Ltd"
+      title = "Prime Bank Ltd"
+      subtitle = ""
+
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Testimonials"
+    description = ""
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person = 'Session, Manager <span class="subtext">Aasha Tamrakar Homestay</span>'
+      img = "person_1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      person = 'Manab, Owner <span class="subtext">Busy Bakery Cafe</span>'
+      img = "person_2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      person = 'Suraj, Retiree <span class="subtext">Panauti</span>'
+      img = "person_3.jpg"
+      alt = "Person3"
+
+
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Internet Plans"
+    description = "Reliable and affordable internet service provider in Karve district, offering high quality internet to speed up browsing experieces and increase business productivities."
+
+    [[params.services.item]]
+      title = "Fibre Internet"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "Wireless internet"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-layers2"
+
+    [[params.services.item]]
+      title = "4G Broadband Internet"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-video2"
+
+      [[params.services.item]]
+      title = "TV & Internet Combo"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-monitor"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About"
+    description = ""
+
+    [[params.about.item]]
+      name = "Subesh Tamrakar"
+      position = "Chief Executive Officer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      img = "ceo.jpg"
+      alt = "CEO"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Ramhmi Shrestha"
+      position = "Chief Marketing Officer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      img = "cmo.jpg"
+      alt = "CMO"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Lossion Tamrakar"
+      position = "Chief Technology Officer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      img = "cto.jpg"
+      alt = "CTO"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+  # Counters section
+  [params.counters]
+    enable = true
+    title = "Internet Speed"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Download K/b"
+      icon = "icon-cloud-download"
+      from = 0
+      to = 25800
+      interval = 50
+      speed = 3000
+
+    [[params.counters.item]]
+      description = "Upload K/b"
+      icon = "icon-cloud-upload"
+      from = 0
+      to = 7350
+      interval = 50
+      speed = 3000
+
+    [[params.counters.item]]
+      description = "Quality"
+      icon = "icon-like"
+      from = 0
+      to = 4302
+      interval = 50
+      speed = 3000
+
+    [[params.counters.item]]
+      description = "$$ Saving"
+      icon = "icon-wallet"
+      from = 0.00
+      to = 5800.00
+      interval = 50
+      speed = 3000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    form = true
+    title = "Get in Touch"
+    description = "Leave your contact details and we will call you back within 24 hours."
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Panauti Road, Banepa, Kavrepalanchok, Nepal"],
+        ["icon-phone", "+977011662729"],
+        ["icon-call-out", "+9779801116704"],
+        ["icon-envelope", '<a href="mailto:info-ultranet.com.np">info-ultranet.com.np</a>'],
+        ["icon-globe", "https://ultranet.com.np"]
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; 2018 Ultranet Communication Nepal. All Rights Reserved.'
+    links = [
+        ["icon-social-twitter", "https://twitter.com/ultranetcommunication"],
+        ["icon-social-facebook", "https://facebook.com/ultranetcommunication"],
+        ["icon-social-instagram", "https://instagram.com/ultranetcommunication"]
+      ]

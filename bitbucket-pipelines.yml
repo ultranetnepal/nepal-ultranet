@@ -1,0 +1,14 @@
+image: beevelop/nodejs-python
+pipelines:
+  branches:
+    master:
+      - step:
+          script:
+            - apt-get update -y && apt-get install wget
+            - apt-get -y install git
+            - wget https://github.com/gohugoio/hugo/releases/download/v0.41/hugo_0.41_Linux-64bit.deb
+            - dpkg -i hugo*.deb
+            - git clone https://github.com/saey55/hugo-elate-theme
+            - hugo --theme=hugo-elate-theme --baseURL https://__baseurl__ --buildDrafts
+            - npm install -g aerobatic-cli
+            - aero deploy

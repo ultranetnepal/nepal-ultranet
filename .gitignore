@@ -1,0 +1,7 @@
+node_modules/
+package.json
+yarn.lock
+app.js
+/public 
+/themes 
+aero-deploy.tar.gz
