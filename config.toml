@@ -239,7 +239,7 @@ theme = "hugo-elate-theme"
       description = "Download K/b"
       icon = "icon-cloud-download"
       from = 0
-      to = 25800
+      to = 34800
       interval = 50
       speed = 3000
 
@@ -247,9 +247,9 @@ theme = "hugo-elate-theme"
       description = "Upload K/b"
       icon = "icon-cloud-upload"
       from = 0
-      to = 7350
+      to = 27350
       interval = 50
-      speed = 3000
+      speed = 2500
 
     [[params.counters.item]]
       description = "Quality"
@@ -257,7 +257,7 @@ theme = "hugo-elate-theme"
       from = 0
       to = 4302
       interval = 50
-      speed = 3000
+      speed = 2000
 
     [[params.counters.item]]
       description = "$$ Saving"
@@ -265,7 +265,7 @@ theme = "hugo-elate-theme"
       from = 0.00
       to = 5800.00
       interval = 50
-      speed = 3000
+      speed = 1500
 
   # Contact section
   [params.contact]
