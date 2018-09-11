@@ -7,7 +7,7 @@ theme = "hugo-elate-theme"
 
 [params]
 
-  custom_css = ["css/modified-custom1.css", "css/modified-custom2.css"]
+  custom_css = ["css/modified-custom1.css"]
 
   # Meta
   author = "Peranakan Francis"
