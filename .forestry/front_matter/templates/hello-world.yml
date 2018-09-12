@@ -16,3 +16,12 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+- type: field_group_list
+  fields:
+  - type: textarea
+    name: meta_description
+    label: Meta Description
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
