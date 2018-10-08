@@ -55,7 +55,7 @@ logo = "logo.png"
 
   [[params.intro.item]]
     title = "11Mbps + IPTV"
-    description = "Rs3450 for 3 months"
+    description = "Rs 3450 for 3 months"
     url = "#"
     button = "Online Exclusive"
     icon = "icon-magic-wand"
