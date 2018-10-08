@@ -17,7 +17,7 @@ logo = "logo.png"
   email = "francis.tch@gmail.com"
   # Navigation
   [params.navigation]
-    brand = "Ultranet Communication"
+    brand = "Ultranet"
     home = "Plans"
     work = "IPTV"
     testimonials = "Testimonials"
@@ -235,7 +235,7 @@ logo = "logo.png"
     subtitle = ""
 
   [[params.work.row]]
-    img = "animal-planet.jpg"
+    img = "hbofamily.jpg"
     alt = "Laws and Orders Special Victim Unit Poster"
     title = "HBO Family Channel"
     subtitle = ""
