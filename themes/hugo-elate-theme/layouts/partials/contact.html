@@ -21,7 +21,7 @@
 				</div>
 				{{ if .Site.Params.contact.form }}
 				<div class="col-md-6 to-animate">
-					<form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
+					<form action="https://send.pageclip.co/msDPN91mMDMqfxs6bnmZpiGETCgqddE8/contact-form" class="pageclip-form" method="post">
 					<div class="form-group ">
 						{{ with .Site.Params.contact.name }}
 						<label for="name" class="sr-only">{{ . | markdownify }}</label>
@@ -55,6 +55,6 @@
 			</div>
 		</div>
 		{{ if .Site.Params.contact.map }}
-        	<div id="map" class="to-animate"></div>
+		   	<div id="map" class="to-animate"></div>
 		{{ end }}
 	</section>

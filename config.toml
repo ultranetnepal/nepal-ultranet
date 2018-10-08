@@ -1,9 +1,11 @@
 # Page settings
-baseurl = ""
+baseurl = "http://ultranet.com.np"
 title = "Ultranet Communication Nepal"
 description = "Reliable and affordable internet service provider in Karve district, offering high quality internet to speed up browsing experieces and increase business productivities."
+keywords = "internet service provider in Karve"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
+logo = "logo.png"
 
 [params]
 
@@ -11,15 +13,15 @@ theme = "hugo-elate-theme"
 
   # Meta
   author = "Peranakan Francis"
-  description = 'Malaysian guy lives in Nepal working on his best effort to improve and boost the online browisng experieces for both local and foreign viewvers. He is also a winner of <a href="http://www.mwa.my/2017/may/khimyan-curry-a-malaysian-born-curry-paste">Malaysia Website Award 2017</a>.'
+  description = 'Malaysian guy lives in Nepal working on his best effort to improve and boost the online browsing experiences for both local and foreign viewers. He is also a winner of <a href="http://www.mwa.my/2017/may/khimyan-curry-a-malaysian-born-curry-paste">Malaysia Website Award 2017</a>.'
   email = "francis.tch@gmail.com"
   # Navigation
   [params.navigation]
-    brand = "Ultranet"
-    home = "Home"
-    work = "Features"
+    brand = "Ultranet Communication"
+    home = "Plans"
+    work = "IPTV"
     testimonials = "Testimonials"
-    services = "Plans"
+    services = "Services"
     about = "About"
     contact = "Contact"
 
@@ -44,95 +46,176 @@ theme = "hugo-elate-theme"
 
   # Hero section
   [params.hero]
-    title = "Ultranet is"
-    subtitle = 'Fast Internet!'
-    img = "hero.jpg"
+    subtitle = "immerse in Fast Internet experience"
+    title = "Ultranet"
 
   # Intro section
-  # Available icons: http://simplelineicons.com/
+  # Available icons: https://pagellapolitica.it/static/plugins/line-icons
   [params.intro]
 
   [[params.intro.item]]
-    title = "Internet for Student"
-    description = ""
+    title = "11Mbps + IPTV"
+    description = "Rs3450 for 3 months"
     url = "#"
-    button = "I'm Student"
+    button = "Online Exclusive"
+    icon = "icon-magic-wand"
+    img = "online-exclusive.jpg"
+
+  [[params.intro.item]]
+    title = "6Mbps + IPTV"
+    description = "Rs 600/month for 12 months"
+    url = "#"
+    button = "Fibre for Student"
     icon = "icon-eyeglass"
-    img = "img_6.jpg"
+    img = "student-fibre.jpg"
 
   [[params.intro.item]]
-    title = "Internet for Home"
-    description = ""
+    title = "11Mbps + IPTV"
+    description = "Rs 900/month for 12 months"
     url = "#"
-    button = "I'm Home"
+    button = "Fibre for Home"
     icon = "icon-home"
-    img = "img_7.jpg"
+    img = "home-fibre.jpg"
 
   [[params.intro.item]]
-    title = "Internet for Business"
-    description = ""
+    title = "22Mbps + IPTV"
+    description = "Rs 1100/month for 12 months"
     url = "#"
-    button = "I'm Business"
-    icon = "icon-globe"
-    img = "img_8.jpg"
+    button = "Fibre for Startup"
+    icon = "icon-bulb"
+    img = "startup-fibre.jpg"
 
   [[params.intro.item]]
-    title = "Coverages"
-    description = ""
+    title = "33Mbps + IPTV"
+    description = "Rs 1300/month for 12 months"
     url = "#"
-    button = "Am I Covered?"
-    icon = "icon-location-pin"
-    img = "img_10.jpg"
+    button = "Fibre for Cafe"
+    icon = "icon-cup"
+    img = "cafe-fibre.jpg"
+
+  [[params.intro.item]]
+    title = "44Mbps + IPTV"
+    description = "Rs 1500/month for 12 months"
+    url = "#"
+    button = "Fibre for Business"
+    icon = "icon-briefcase"
+    img = "business-fibre.jpg"
+
+
+# Intro Item Templates
+#  [[params.intro.item]]
+#    title = ""
+#    description = ""
+#    url = "#"
+#    button = ""
+#    icon = ""
+#    img = ""
 
   [params.intro.video]
     enable = true
-    title = ""
+    title = "How to Sign Up and Install?"
     icon = "icon-control-play"
-    url = "https://vimeo.com/79142264"
+    url = "https://vimeo.com/293834164"
+    #url = "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fultranetcommunication%2Fvideos%2F303404846920739%2F&show_text=0&width=700"
 
 
   # Work section
   [params.work]
     enable = true
-    title = "Our Customers"
-    description = "Since our establishment, many have switched to us and stay with us happily until now."
+    title = "The Non-stop Experience"
+    description = "Get great Entertainment from the world popular TV channels and watch 'em all in High Definition"
     footertext = ""
 
   [[params.work.row]]
-    img = "work_1.jpg"
-    alt = "Embassy of India"
-    title = "Embassy of India"
+    img = "axn.jpg"
+    alt = "Fear Factor Poster"
+    title = "AXN Channel"
     subtitle = ""
 
   [[params.work.row]]
-    img = "work_2.jpg"
-    alt = "Hotel Prince Plaza"
-    title = "Hotel Prince Plaza"
+    img = "zing.jpg"
+    alt = "Billo Poster"
+    title = "Zing Channel"
     subtitle = ""
 
   [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Nepal Police"
-      title = "Nepal Police"
-      subtitle = ""
+    img = "cartoonnetwork.jpg"
+    alt = "Pokemon Poster"
+    title = "Cartoon Network Channel"
+    subtitle = ""
 
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Nepal Red Cross Society"
-      title = "Nepal Red Cross Society"
-      subtitle = ""
+  [[params.work.row]]
+    img = "hbo.jpg"
+    alt = "The Game of Thrones Poster"
+    title = "HBO Channel"
+    subtitle = ""
 
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Nepal Football Association"
-      title = "Nepal Football Association"
-      subtitle = ""
+  [[params.work.row]]
+    img = "natgeo.jpg"
+    alt = "Life Below Zero Paster"
+    title = "National Geographic Channel"
+    subtitle = ""
 
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Prime Bank Ltd"
-      title = "Prime Bank Ltd"
-      subtitle = ""
+  [[params.work.row]]
+    img = "sonyespn.jpg"
+    alt = "Sunday NFL Countdown Poster"
+    title = "Sony ESPN Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "cnn.jpg"
+    alt = "CNN Heroes Poster"
+    title = "CNN Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "zoom.jpg"
+    alt = "Kabali Poster"
+    title = "Zoom Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "mtv.jpg"
+    alt = "Teen Wolf Poster"
+    title = "MTV Music Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "sonymax.jpg"
+    alt = "American Next Top Model Poster"
+    title = "Sony Max Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "cctv.jpg"
+    alt = "Emperor in the Palace Poster"
+    title = "CCTV Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "tlc.jpg"
+    alt = "The Voice America Poster"
+    title = "V Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "starworld.jpg"
+    alt = "Sherlock Poster"
+    title = "BBC Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "disneychannel.jpg"
+    alt = "Lilo and Sticth Poster"
+    title = "Disney Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "fox.jpg"
+    alt = "Once Upon A Time Poster"
+    title = "starworld Channel"
+    subtitle = ""
+
 
   # Testimonials section
   [params.testimonials]
@@ -159,39 +242,48 @@ theme = "hugo-elate-theme"
       alt = "Person3"
 
 
-
-
   # Services section
   [params.services]
     enable = true
-    title = "Internet Plans"
-    description = "Reliable and affordable internet service provider in Karve district, offering high quality internet to speed up browsing experieces and increase business productivities."
+    title = "The Future is Fibre"
+    description = "Forget copper! As broadband demands increase with technological advancements, fibre optics are the new standard for higher network speeds, stability and quality."
 
     [[params.services.item]]
-      title = "Fibre Internet"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      title = "Full HD Enjoyment"
+      description = "On fibre broadband, it takes only minutes for a full HD movie to finish downloading, and the increased rate means you can even stream shows to watch while they download. No more having to suffer the buffer!"
+      icon = "icon-screen-desktop"
 
     [[params.services.item]]
-      title = "Wireless internet"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
+      title = "Turbo Internet Speed"
+      description = "Light travels faster, no questions about that. Since optic fibres transmit light, they can deliver much higher speeds than copper cables. A 100% fibre optic connection allows us to ensure that you get the speeds you subscribe to."
+      icon = "icon-speedometer"
 
     [[params.services.item]]
-      title = "4G Broadband Internet"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      title = "Seamless Internet Calls"
+      description = "Fibre broadband has the capacity to handle heavier demand on your bandwidth, so video calls on a fibre connection are clearer and more seamless. You might as well be talking to the person through a window!"
+      icon = "icon-earphones-alt"
+
+    [[params.services.item]]
+      title = "Smooth Online Gaming"
+      description = "Connection speed, denoted in megabits per second (Mbps), has become critical in order to be an accomplished player. With fibre broadband speeds currently in the hundreds and still climbing, users can enjoy minimal lag and a smooth connection – every gamer’s dream."
+      icon = "icon-game-controller"
+
+    [[params.services.item]]
+      title = "Better Stability"
+      description = "Fibre optics is much less susceptible to environmental factors such as temperature and electromagnetic interference. In addition, attenuation is lower with fibre optics as well. This translates to a more stable connection for you."
+      icon = "icon-energy"
 
       [[params.services.item]]
-      title = "TV & Internet Combo"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-monitor"
+      title = "Security Performance"
+      description = "Fibre optic cables transmit data via light, they are much less susceptible to outside interference (no more network issues during rainy days) and much more reliable. You can shop to your heart’s content and not worry about your money disappearing into the black holes of the Internet."
+      icon = "icon-shield"
+
 
   # About section
   [params.about]
     enable = true
-    title = "About"
-    description = ""
+    title = "Our Team"
+    description = "Ultranet management team believes in Future-proof technology so we chose to implement the 100% fibre optics cables from end to end, unlike service providers who use a combination of copper and fibre optics. On top of that, we know our network infrastructure well to ensure the quality of the service we deliver to you."
 
     [[params.about.item]]
       name = "Subesh Tamrakar"
@@ -214,7 +306,7 @@ theme = "hugo-elate-theme"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-linkedin", "#"]
       ]
 
     [[params.about.item]]
@@ -226,45 +318,45 @@ theme = "hugo-elate-theme"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-linkedin", "#"]
       ]
 
   # Counters section
   [params.counters]
     enable = true
-    title = "Internet Speed"
-    background = "full_image_1.jpg"
+    title = "Why Choose Us?"
+    background = ""
 
     [[params.counters.item]]
-      description = "Download K/b"
+      description = "Downloading K/b"
       icon = "icon-cloud-download"
       from = 0
-      to = 34800
+      to = 59000
       interval = 50
       speed = 3000
 
     [[params.counters.item]]
-      description = "Upload K/b"
+      description = "Uploading K/b"
       icon = "icon-cloud-upload"
       from = 0
-      to = 27350
-      interval = 30
+      to = 56000
+      interval = 40
       speed = 3000
 
     [[params.counters.item]]
-      description = "Quality"
-      icon = "icon-like"
+      description = "Subscribers"
+      icon = "icon-users"
       from = 0
-      to = 4302
-      interval = 15
+      to = 5000
+      interval = 10
       speed = 3000
 
     [[params.counters.item]]
-      description = "$$ Saving"
-      icon = "icon-wallet"
+      description = "Coverage areas"
+      icon = "icon-target"
       from = 0
-      to = 5800
-      interval = 15
+      to = 18
+      interval = 5
       speed = 3000
 
   # Contact section
@@ -273,13 +365,12 @@ theme = "hugo-elate-theme"
     map = true
     form = true
     title = "Get in Touch"
-    description = "Leave your contact details and we will call you back within 24 hours."
+    description = "We're ready to help you! Leave your contact details and we will call you back within 24 hours."
 
-    # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "Panauti Road, Banepa, Kavrepalanchok, Nepal"],
-        ["icon-phone", "+977011662729"],
-        ["icon-call-out", "+9779801116704"],
+        ["icon-compass", 'Panauti Road, Banepa, Kavrepalanchok, Nepal'],
+        ["icon-phone", '<a href="callto:00977011662729">+977011662729</a>'],
+        ["icon-bubble", '<a href="http://wa.me/9779801116704">+9779801116704</a>'],
         ["icon-envelope", '<a href="mailto:info-ultranet.com.np">info-ultranet.com.np</a>'],
         ["icon-globe", "https://ultranet.com.np"]
       ]
@@ -295,7 +386,8 @@ theme = "hugo-elate-theme"
     enable = true
     copyright = '&copy; 2018 Ultranet Communication Nepal. All Rights Reserved.'
     links = [
-        ["icon-social-twitter", "https://twitter.com/ultranetcommunication"],
         ["icon-social-facebook", "https://facebook.com/ultranetcommunication"],
-        ["icon-social-instagram", "https://instagram.com/ultranetcommunication"]
+        ["icon-social-twitter", "https://twitter.com/ultranetcommunication"],
+        ["icon-social-instagram", "https://instagram.com/ultranetcommunication"],
+        ["icon-social-youtube", "https://youtube.com/user/ultranetcommunication"]
       ]
