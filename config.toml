@@ -195,7 +195,7 @@ logo = "logo.png"
   [[params.work.row]]
     img = "tlc.jpg"
     alt = "The Voice America Poster"
-    title = "V Channel"
+    title = "Channel V"
     subtitle = ""
 
   [[params.work.row]]
@@ -216,6 +216,41 @@ logo = "logo.png"
     title = "Starworld Channel"
     subtitle = ""
 
+  [[params.work.row]]
+    img = "diva.jpg"
+    alt = "Queen of South Poster"
+    title = "Fox Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "abc.jpg"
+    alt = "What Would You Do Poster"
+    title = "FX Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "animal-planet.jpg"
+    alt = "Too Cute Poster"
+    title = "Animal Planet Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "animal-planet.jpg"
+    alt = "Laws and Orders Special Victim Unit Poster"
+    title = "HBO Family Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "warnertv.jpg"
+    alt = "The Good Place Poster"
+    title = "Warner TV Channel"
+    subtitle = ""
+
+  [[params.work.row]]
+    img = "discovery.jpg"
+    alt = "Sherpa Poster"
+    title = "Discovery Channel"
+    subtitle = ""
 
   # Testimonials section
   [params.testimonials]
