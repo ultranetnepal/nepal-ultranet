@@ -1,7 +1,6 @@
 # Page settings
-baseurl = "http://ultranet.com.np"
+baseurl = ""
 title = "Ultranet Communication Nepal"
-description = "Reliable and affordable internet service provider in Karve district, offering high quality internet to speed up browsing experieces and increase business productivities."
 keywords = "internet service provider in Karve"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
@@ -15,9 +14,9 @@ logo = "logo.png"
   custom_css = [ "css/modified-custom1.css", "css/modified-custom2.css" ]
 
   # Meta
-  author = "Peranakan Francis"
-  description = 'Malaysian guy lives in Nepal working on his best effort to improve and boost the online browsing experiences for both local and foreign viewers. He is also a winner of <a href="http://www.mwa.my/2017/may/khimyan-curry-a-malaysian-born-curry-paste">Malaysia Website Award 2017</a>.'
-  email = "francis.tch@gmail.com"
+  author = "Ultranet"
+  description = "Reliable and affordable internet service provider in Karve district, offering high quality internet to speed up browsing experieces and increase business productivities."
+  email = "info@ultranet.com.np"
   # Navigation
   [params.navigation]
     brand = "Ultranet"
