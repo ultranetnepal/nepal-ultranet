@@ -269,22 +269,22 @@ logo = "logo.png"
     description = ""
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Session, Manager <span class="subtext">Aasha Tamrakar Homestay</span>'
-      img = "person_1.jpg"
-      alt = "Person1"
+      quote = "Just had installation earlier this morning. The guy was very professional and the connection was active as soon as he'd finished. Currently experiencing download speeds even quicker than is advertised! Great experience so far."
+      person = 'Session <span class="subtext">Aasha Tamrakar Homestay</span>'
+      img = "person1.jpg"
+      alt = "Session Tamrakar"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'Manab, Owner <span class="subtext">Busy Bakery Cafe</span>'
-      img = "person_2.jpg"
-      alt = "Person2"
+      quote = "Best broadband installation I have ever had, so easy no waiting around Subesh was on time, worked quickly and when i had a small problem later on that evening he helped me to sort it straight away! Didn't even have to ring customer services and wait on hold for ages :) Thanks very much Subesh, great customer service!"
+      person = 'Priyanka <span class="subtext">University of Kathmandu</span>'
+      img = "person2.jpg"
+      alt = "Priyanka"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Suraj, Retiree <span class="subtext">Panauti</span>'
-      img = "person_3.jpg"
-      alt = "Person3"
+      quote = "After some time trying to get my phone line working I received a call from Situ and in no time at all the issue was identified and resolved. Situ was brilliant, he clearly has a wealth of experience trouble shooting. Thank you Situ and Ultranet"
+      person = 'Raj <span class="subtext">Hotel Manager</span>'
+      img = "person3.jpg"
+      alt = "Raj"
 
 
   # Services section
@@ -326,7 +326,7 @@ logo = "logo.png"
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "Our Team"
     description = "Ultranet management team believes in Future-proof technology so we chose to implement the 100% fibre optics cables from end to end, unlike service providers who use a combination of copper and fibre optics. On top of that, we know our network infrastructure well to ensure the quality of the service we deliver to you."
 
@@ -416,7 +416,7 @@ logo = "logo.png"
         ["icon-compass", 'Panauti Road, Banepa, Kavrepalanchok, Nepal'],
         ["icon-phone", '<a href="callto:00977011662729">+977011662729</a>'],
         ["icon-bubble", '<a href="http://wa.me/9779801116704">+9779801116704</a>'],
-        ["icon-envelope", '<a href="mailto:info-ultranet.com.np">info-ultranet.com.np</a>'],
+        ["icon-envelope", '<a href="mailto:info@ultranet.com.np">info@ultranet.com.np</a>'],
         ["icon-globe", "https://ultranet.com.np"]
       ]
 
