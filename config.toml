@@ -12,11 +12,13 @@ logo = "logo.png"
 [params]
 
   custom_css = [ "css/modified-custom1.css", "css/modified-custom2.css" ]
+  googleMapsApiKey = "AIzaSyAEOcPGx2ufv6fIOMt8pylCw3IjVCoveBw"
 
   # Meta
   author = "Ultranet"
   description = "Reliable and affordable internet service provider in Karve district, offering high quality internet to speed up browsing experieces and increase business productivities."
   email = "info@ultranet.com.np"
+
   # Navigation
   [params.navigation]
     brand = "Ultranet"
@@ -368,7 +370,7 @@ logo = "logo.png"
   [params.counters]
     enable = true
     title = "Why Choose Us?"
-    background = ""
+    background = "counter_background.jpg"
 
     [[params.counters.item]]
       description = "Downloading K/b"

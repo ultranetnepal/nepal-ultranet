@@ -20,11 +20,16 @@
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
+	<!-- unveilEffects -->
+	<script src="js/jquery.unveilEffects.js"></script>
 	<!-- Google Map -->
 	{{ if .Site.Params.contact.map }}
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_nh2LgXTarHwoHlUc_Ng3EyT_p3ypGPo&sensor=false"></script>
-	<script src="js/google_map.js"></script>
-	{{ end }}
+				{{ if .Site.Params.googleMapsApiKey }}
+				<script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.googleMapsApiKey }}"></script>
+				{{ else }}
+				<script src="https://maps.googleapis.com/maps/api/js"></script>
+				{{ end }}
+			<script src="js/google_map.js"></script>
+			{{ end }}
 	<!-- Main JavaScript -->
 	<script src="js/main.js"></script>
-	<script src="js/jquery.unveilEffects.js"></script>
