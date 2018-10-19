@@ -85,7 +85,7 @@ logo = "logo.png"
     img = "home-fibre.jpg"
 
   [[params.intro.item]]
-    title = " "
+    title = "22Mbps + IPTV"
     description = "Rs 1100/month for 12 months"
     url = "http://eepurl.com/dKQY02"
     target = "_blank"
