@@ -7,6 +7,9 @@ languageCode = "en-us"
 theme = "hugo-elate-theme"
 logo = "logo.png"
 
+[permalinks]
+  post = "/:year/:month/:title/"
+
 [params]
 
   custom_css = [ "css/modified-custom1.css", "css/modified-custom2.css" ]
@@ -28,11 +31,11 @@ logo = "logo.png"
     # Add custom links before or after the default links
     # Assign a weight to define the order
 
-    #prepended links
-    #[[menu.prepend]]
-    #  url = ""
-    #  name = ""
-    #  weight =
+  #prepended links
+#  [[menu.prepend]]
+#    url = "/plans/"
+#    name = "Plans"
+#    weight = 10
 
     # postpended links
   #[[menu.postpend]]
@@ -56,7 +59,8 @@ logo = "logo.png"
   [[params.intro.item]]
     title = "11Mbps + IPTV"
     description = "Rs 3450 for 3 months"
-    url = "#"
+    url = "http://eepurl.com/dKQY02"
+    target = "_blank"
     button = "Online Exclusive"
     icon = "icon-magic-wand"
     img = "online-exclusive.jpg"
@@ -64,7 +68,8 @@ logo = "logo.png"
   [[params.intro.item]]
     title = "6Mbps + IPTV"
     description = "Rs 600/month for 12 months"
-    url = "#"
+    url = "http://eepurl.com/dKQY02"
+    target = "_blank"
     button = "Fibre for Student"
     icon = "icon-eyeglass"
     img = "student-fibre.jpg"
@@ -72,15 +77,17 @@ logo = "logo.png"
   [[params.intro.item]]
     title = "11Mbps + IPTV"
     description = "Rs 900/month for 12 months"
-    url = "#"
+    url = "http://eepurl.com/dKQY02"
+    target = "_blank"
     button = "Fibre for Home"
     icon = "icon-home"
     img = "home-fibre.jpg"
 
   [[params.intro.item]]
-    title = "22Mbps + IPTV"
+    title = " "
     description = "Rs 1100/month for 12 months"
-    url = "#"
+    url = "http://eepurl.com/dKQY02"
+    target = "_blank"
     button = "Fibre for Startup"
     icon = "icon-bulb"
     img = "startup-fibre.jpg"
@@ -88,7 +95,8 @@ logo = "logo.png"
   [[params.intro.item]]
     title = "33Mbps + IPTV"
     description = "Rs 1300/month for 12 months"
-    url = "#"
+    url = "http://eepurl.com/dKQY02"
+    target = "_blank"
     button = "Fibre for Cafe"
     icon = "icon-cup"
     img = "cafe-fibre.jpg"
@@ -96,7 +104,8 @@ logo = "logo.png"
   [[params.intro.item]]
     title = "44Mbps + IPTV"
     description = "Rs 1500/month for 12 months"
-    url = "#"
+    url = "http://eepurl.com/dKQY02"
+    target = "_blank"
     button = "Fibre for Business"
     icon = "icon-briefcase"
     img = "business-fibre.jpg"

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        {{ partial "head.html" .}}
+        {{ partial "analytics.html" .}}
+    </head>
+    <body>
+    {{ partial "fbchat.html" .}}
+
+    {{ partial "nav.html" .}}
+
+    {{ .Content }}
+
+    {{ partial "services.html" .}}
+
+    {{ partial "footer.html" .}}
+
+    {{ partial "js.html" .}}
+</body>
+</html>
