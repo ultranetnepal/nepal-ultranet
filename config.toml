@@ -123,7 +123,7 @@ logo = "logo.png"
 
   [params.intro.video]
     enable = true
-    title = "How to Sign Up and Install?"
+    title = "Turbo Up, Nepal!"
     icon = "icon-control-play"
     url = "https://vimeo.com/296158462"
     #url = "https://www.facebook.com/ultranetcommunication/videos/351474302064649/"
