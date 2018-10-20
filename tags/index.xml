@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ultranet Communication Nepal</title>
-    <link>http://fibre.ultranet.com.np/tags/</link>
+    <link>http://www.ultranet.com.np/tags/</link>
     <description>Recent content in Tags on Ultranet Communication Nepal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://fibre.ultranet.com.np/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.ultranet.com.np/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

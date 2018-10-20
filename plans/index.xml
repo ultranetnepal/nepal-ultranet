@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plans on Ultranet Communication Nepal</title>
-    <link>http://fibre.ultranet.com.np/plans/</link>
+    <link>http://www.ultranet.com.np/plans/</link>
     <description>Recent content in Plans on Ultranet Communication Nepal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Dec 2016 21:08:06 +0000</lastBuildDate>
     
-	<atom:link href="http://fibre.ultranet.com.np/plans/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.ultranet.com.np/plans/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo is awesome</title>
-      <link>http://fibre.ultranet.com.np/plans/online-exclusive/</link>
+      <link>http://www.ultranet.com.np/plans/online-exclusive/</link>
       <pubDate>Tue, 27 Dec 2016 21:08:06 +0000</pubDate>
       
-      <guid>http://fibre.ultranet.com.np/plans/online-exclusive/</guid>
+      <guid>http://www.ultranet.com.np/plans/online-exclusive/</guid>
       <description>Hat tips&amp;hellip; At the end of November I attended a &amp;lsquo;Lunch &amp;amp;&amp;amp; Code&amp;rsquo; session in the Digital Greenhouse. One of the sessions run by Jason Magee &amp;hellip;</description>
     </item>
     
