@@ -16,7 +16,7 @@ logo = "logo.png"
 
   # Meta
   author = "Ultranet"
-  description = "Reliable and affordable internet service provider in Karve district, offering high quality internet to speed up browsing experieces and increase business productivities."
+  description = "Reliable and affordable internet service provider in Karve district, offering high quality internet to speed up browsing experience and increase business productivities."
   email = "info@ultranet.com.np"
 
   # Navigation
@@ -125,8 +125,8 @@ logo = "logo.png"
     enable = true
     title = "How to Sign Up and Install?"
     icon = "icon-control-play"
-    url = "https://vimeo.com/293834164"
-    #url = "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fultranetcommunication%2Fvideos%2F303404846920739%2F&show_text=0&width=700"
+    url = "https://vimeo.com/296158462"
+    #url = "https://www.facebook.com/ultranetcommunication/videos/351474302064649/"
 
 
   # Work section
