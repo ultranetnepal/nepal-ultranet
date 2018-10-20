@@ -1,1 +1,5 @@
+# Redirect domain aliases to primary domain
+http://www.ultranet.com.np/* http://fibre.ultranet.com.np/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
 http://ultranet.netlify.com/* http://fibre.ultranet.com.np/:splat 301!
