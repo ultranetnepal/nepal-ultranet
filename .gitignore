@@ -16,3 +16,4 @@ public
 .gh-deploy.sh
 .gitmodules
 .hugulprc
+gh-deploy.sh

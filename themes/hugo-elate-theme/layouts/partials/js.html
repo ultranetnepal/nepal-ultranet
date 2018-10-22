@@ -25,11 +25,12 @@
 	<!-- Google Map -->
 	{{ if .Site.Params.contact.map }}
 				{{ if .Site.Params.googleMapsApiKey }}
-				<script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.googleMapsApiKey }}"></script>
+				<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.googleMapsApiKey }}&callback=initMap">
+    </script>
 				{{ else }}
 				<script src="https://maps.googleapis.com/maps/api/js"></script>
 				{{ end }}
-			<script src="js/google_map.js"></script>
+				<script src="js/google_map2.js"></script>
 			{{ end }}
 	<!-- Main JavaScript -->
 	<script src="js/main.js"></script>

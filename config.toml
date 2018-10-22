@@ -83,6 +83,7 @@ logo = "logo.png"
     button = "Fibre for Home"
     icon = "icon-home"
     img = "home-fibre.jpg"
+    identity = "11mbps"
 
   [[params.intro.item]]
     title = "22Mbps + IPTV"
@@ -92,6 +93,7 @@ logo = "logo.png"
     button = "Fibre for Startup"
     icon = "icon-bulb"
     img = "startup-fibre.jpg"
+    identity = "22mbps"
 
   [[params.intro.item]]
     title = "33Mbps + IPTV"
@@ -101,6 +103,7 @@ logo = "logo.png"
     button = "Fibre for Cafe"
     icon = "icon-cup"
     img = "cafe-fibre.jpg"
+    identity = "33mbps"
 
   [[params.intro.item]]
     title = "44Mbps + IPTV"
@@ -110,7 +113,7 @@ logo = "logo.png"
     button = "Fibre for Business"
     icon = "icon-briefcase"
     img = "business-fibre.jpg"
-
+    identity = "44mbps"
 
 # Intro Item Templates
 #  [[params.intro.item]]
