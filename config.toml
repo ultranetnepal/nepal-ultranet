@@ -34,8 +34,8 @@ logo = "logo.png"
 
   #prepended links
 #  [[menu.prepend]]
-#    url = "/plans/"
-#    name = "Plans"
+#    url = ""
+#    name = ""
 #    weight = 10
 
     # postpended links
@@ -60,7 +60,7 @@ logo = "logo.png"
   [[params.intro.item]]
     title = "11Mbps + IPTV"
     description = "Rs 3450 for 3 months"
-    url = "http://eepurl.com/dKQY02"
+    url = "http://www.ultranet.com.np/shop/online-exclusive/"
     target = "_blank"
     button = "Online Exclusive"
     icon = "icon-magic-wand"
