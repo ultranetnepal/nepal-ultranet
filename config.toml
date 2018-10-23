@@ -41,10 +41,10 @@ logo = "logo.png"
 #    weight = 10
 
   # postpended links
-  [[menu.postpend]]
-    url = "http://ultranet.com.np/store/"
-    name = "Shop"
-    weight = 10
+#  [[menu.postpend]]
+#    url = "http://ultranet.com.np/store/"
+#    name = "Shop"
+#    weight = 10
 
   #  url = ""
   #  name = "Sign Up"
