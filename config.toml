@@ -412,7 +412,7 @@ logo = "logo.png"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "Get in Touch"
     description = "We're ready to help you! Leave your contact details and we will call you back within 24 hours."
