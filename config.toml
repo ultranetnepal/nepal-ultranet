@@ -1,18 +1,20 @@
 # Page settings
-baseurl = "http://www.ultranet.com.np"
+baseurl = "/"
 title = "Ultranet Communication Nepal"
 keywords = "internet service provider in Karve"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 logo = "logo.png"
 
-[permalinks]
-  post = "/:year/:month/:title/"
+#[permalinks]
+#  post = "/:year/:month/:title/"
 
 [params]
 
   custom_css = [ "css/modified-custom1.css", "css/modified-custom2.css" ]
   googleMapsApiKey = "AIzaSyAEOcPGx2ufv6fIOMt8pylCw3IjVCoveBw"
+  khalti_test_pubkey = "test_public_key_fd5ba42ac3644076a3f805a63b99e536"
+  khalti_test_pubsec = "test_secret_key_966a63c419aa43c9a2faecc8fd436ce1"
 
   # Meta
   author = "Ultranet"
@@ -22,7 +24,7 @@ logo = "logo.png"
   # Navigation
   [params.navigation]
     brand = "Ultranet"
-    home = "Plans"
+    home = "Home"
     work = "IPTV"
     testimonials = "Testimonials"
     services = "Services"
@@ -38,11 +40,11 @@ logo = "logo.png"
 #    name = ""
 #    weight = 10
 
-    # postpended links
-  #[[menu.postpend]]
-  #  url = ""
-  #  name = "Login"
-  #  weight = 10
+  # postpended links
+  [[menu.postpend]]
+    url = "http://ultranet.com.np/store/"
+    name = "Shop"
+    weight = 10
 
   #  url = ""
   #  name = "Sign Up"
@@ -69,7 +71,7 @@ logo = "logo.png"
   [[params.intro.item]]
     title = "6Mbps + IPTV"
     description = "Rs 600/month for 12 months"
-    url = "http://eepurl.com/dKQY02"
+    url = "http:/www.ultranet.com.np/shop/fibre-for-student/"
     target = "_blank"
     button = "Fibre for Student"
     icon = "icon-eyeglass"
@@ -235,17 +237,17 @@ logo = "logo.png"
     title = "Fox Channel"
     subtitle = ""
 
-  [[params.work.row]]
-    img = "abc.jpg"
-    alt = "What Would You Do Poster"
-    title = "FX Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "abc.jpg"
+#    alt = "What Would You Do Poster"
+#    title = "FX Channel"
+#    subtitle = ""
 
-  [[params.work.row]]
-    img = "animal-planet.jpg"
-    alt = "Too Cute Poster"
-    title = "Animal Planet Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "animal-planet.jpg"
+#    alt = "Too Cute Poster"
+#    title = "Animal Planet Channel"
+#    subtitle = ""
 
   [[params.work.row]]
     img = "hbofamily.jpg"
@@ -253,11 +255,11 @@ logo = "logo.png"
     title = "HBO Family Channel"
     subtitle = ""
 
-  [[params.work.row]]
-    img = "warnertv.jpg"
-    alt = "The Good Place Poster"
-    title = "Warner TV Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "warnertv.jpg"
+#    alt = "The Good Place Poster"
+#    title = "Warner TV Channel"
+#    subtitle = ""
 
   [[params.work.row]]
     img = "discovery.jpg"
