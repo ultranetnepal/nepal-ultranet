@@ -21,5 +21,3 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
-pages:
-- content/home.md
