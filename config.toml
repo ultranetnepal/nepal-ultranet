@@ -25,7 +25,7 @@ logo = "logo.png"
   [params.navigation]
     brand = "Ultranet"
     home = "Home"
-    work = "IPTV"
+    work = "Fiber TV"
     testimonials = "Testimonials"
     services = "Services"
     about = "About"
@@ -60,7 +60,7 @@ logo = "logo.png"
   [params.intro]
 
   [[params.intro.item]]
-    title = "11Mbps + IPTV"
+    title = "11Mbps"
     description = "Rs 3450 for 3 months"
     url = "http://www.ultranet.com.np/shop/online-exclusive/"
     target = "_blank"
@@ -147,17 +147,17 @@ logo = "logo.png"
     title = "AXN Channel"
     subtitle = ""
 
-  [[params.work.row]]
-    img = "zing.jpg"
-    alt = "Billo Poster"
-    title = "Zing Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "zing.jpg"
+#    alt = "Billo Poster"
+#    title = "Zing Channel"
+#    subtitle = ""
 
-  [[params.work.row]]
-    img = "cartoonnetwork.jpg"
-    alt = "Pokemon Poster"
-    title = "Cartoon Network Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "cartoonnetwork.jpg"
+#    alt = "Pokemon Poster"
+#    title = "Cartoon Network Channel"
+#    subtitle = ""
 
 #  [[params.work.row]]
 #    img = "hbo.jpg"
@@ -195,11 +195,11 @@ logo = "logo.png"
     title = "MTV Music Channel"
     subtitle = ""
 
-  [[params.work.row]]
-    img = "sonymax.jpg"
-    alt = "American Next Top Model Poster"
-    title = "Sony Max Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "sonymax.jpg"
+#    alt = "American Next Top Model Poster"
+#    title = "Sony Max Channel"
+#    subtitle = ""
 
 #  [[params.work.row]]
 #    img = "cctv.jpg"
@@ -207,11 +207,11 @@ logo = "logo.png"
 #    title = "CCTV Channel"
 #    subtitle = ""
 
-  [[params.work.row]]
-    img = "tlc.jpg"
-    alt = "The Voice America Poster"
-    title = "Channel V"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "tlc.jpg"
+#    alt = "The Voice America Poster"
+#    title = "Channel V"
+#    subtitle = ""
 
 #  [[params.work.row]]
 #    img = "starworld.jpg"
@@ -219,23 +219,23 @@ logo = "logo.png"
 #    title = "BBC Channel"
 #    subtitle = ""
 
-  [[params.work.row]]
-    img = "disneychannel.jpg"
-    alt = "Lilo and Sticth Poster"
-    title = "Disney Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "disneychannel.jpg"
+#    alt = "Lilo and Sticth Poster"
+#    title = "Disney Channel"
+#    subtitle = ""
 
-  [[params.work.row]]
-    img = "fox.jpg"
-    alt = "Once Upon A Time Poster"
-    title = "Starworld Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "fox.jpg"
+#    alt = "Once Upon A Time Poster"
+#    title = "Starworld Channel"
+#    subtitle = ""
 
-  [[params.work.row]]
-    img = "diva.jpg"
-    alt = "Queen of South Poster"
-    title = "Fox Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "diva.jpg"
+#    alt = "Queen of South Poster"
+#    title = "Fox Channel"
+#    subtitle = ""
 
 #  [[params.work.row]]
 #    img = "abc.jpg"
@@ -249,11 +249,11 @@ logo = "logo.png"
 #    title = "Animal Planet Channel"
 #    subtitle = ""
 
-  [[params.work.row]]
-    img = "hbofamily.jpg"
-    alt = "Laws and Orders Special Victim Unit Poster"
-    title = "HBO Family Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "hbofamily.jpg"
+#    alt = "Laws and Orders Special Victim Unit Poster"
+#    title = "HBO Family Channel"
+#    subtitle = ""
 
 #  [[params.work.row]]
 #    img = "warnertv.jpg"
@@ -261,11 +261,11 @@ logo = "logo.png"
 #    title = "Warner TV Channel"
 #    subtitle = ""
 
-  [[params.work.row]]
-    img = "discovery.jpg"
-    alt = "Sherpa Poster"
-    title = "Discovery Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "discovery.jpg"
+#    alt = "Sherpa Poster"
+#    title = "Discovery Channel"
+#    subtitle = ""
 
   # Testimonials section
   [params.testimonials]
