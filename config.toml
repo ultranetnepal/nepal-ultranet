@@ -80,7 +80,7 @@ logo = "logo.png"
   [[params.intro.item]]
     title = "11Mbps + IPTV"
     description = "Rs 900/month for 12 months"
-    url = "http://eepurl.com/dKQY02"
+    url = "http://www.ultranet.com.np/shop/fibre-for-home/"
     target = "_blank"
     button = "Fibre for Home"
     icon = "icon-home"
@@ -100,7 +100,7 @@ logo = "logo.png"
   [[params.intro.item]]
     title = "33Mbps + IPTV"
     description = "Rs 1300/month for 12 months"
-    url = "http://eepurl.com/dKQY02"
+    url = "http://www.ultranet.com.np/shop/fibre-for-cafe/"
     target = "_blank"
     button = "Fibre for Cafe"
     icon = "icon-cup"
@@ -159,11 +159,11 @@ logo = "logo.png"
     title = "Cartoon Network Channel"
     subtitle = ""
 
-  [[params.work.row]]
-    img = "hbo.jpg"
-    alt = "The Game of Thrones Poster"
-    title = "HBO Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "hbo.jpg"
+#    alt = "The Game of Thrones Poster"
+#    title = "HBO Channel"
+#    subtitle = ""
 
   [[params.work.row]]
     img = "natgeo.jpg"
@@ -201,11 +201,11 @@ logo = "logo.png"
     title = "Sony Max Channel"
     subtitle = ""
 
-  [[params.work.row]]
-    img = "cctv.jpg"
-    alt = "Emperor in the Palace Poster"
-    title = "CCTV Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "cctv.jpg"
+#    alt = "Emperor in the Palace Poster"
+#    title = "CCTV Channel"
+#    subtitle = ""
 
   [[params.work.row]]
     img = "tlc.jpg"
@@ -213,11 +213,11 @@ logo = "logo.png"
     title = "Channel V"
     subtitle = ""
 
-  [[params.work.row]]
-    img = "starworld.jpg"
-    alt = "Sherlock Poster"
-    title = "BBC Channel"
-    subtitle = ""
+#  [[params.work.row]]
+#    img = "starworld.jpg"
+#    alt = "Sherlock Poster"
+#    title = "BBC Channel"
+#    subtitle = ""
 
   [[params.work.row]]
     img = "disneychannel.jpg"
@@ -381,7 +381,7 @@ logo = "logo.png"
       description = "Downloading K/b"
       icon = "icon-cloud-download"
       from = 0
-      to = 59000
+      to = 66000
       interval = 50
       speed = 3000
 
@@ -389,24 +389,24 @@ logo = "logo.png"
       description = "Uploading K/b"
       icon = "icon-cloud-upload"
       from = 0
-      to = 56000
+      to = 33000
       interval = 40
       speed = 3000
 
     [[params.counters.item]]
-      description = "Subscribers"
+      description = "Users"
       icon = "icon-users"
       from = 0
-      to = 5000
-      interval = 10
+      to = 23000
+      interval = 30
       speed = 3000
 
     [[params.counters.item]]
-      description = "Coverage areas"
+      description = "Coverages sq"
       icon = "icon-target"
       from = 0
-      to = 18
-      interval = 5
+      to = 130
+      interval = 10
       speed = 3000
 
   # Contact section
