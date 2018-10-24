@@ -54,6 +54,8 @@ logo = "logo.png"
   [params.hero]
     subtitle = "immerse in Fast Internet experience"
     title = "Ultranet"
+    img = "company-logo.png"
+    alt = "company logo"
 
   # Intro section
   # Available icons: https://pagellapolitica.it/static/plugins/line-icons
