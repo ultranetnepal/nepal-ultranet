@@ -331,44 +331,44 @@ logo = "logo.png"
 
   # About section
   [params.about]
-    enable = false
+    enable = true
     title = "Our Team"
     description = "Ultranet management team believes in Future-proof technology so we chose to implement the 100% fibre optics cables from end to end, unlike service providers who use a combination of copper and fibre optics. On top of that, we know our network infrastructure well to ensure the quality of the service we deliver to you."
 
     [[params.about.item]]
       name = "Subesh Tamrakar"
-      position = "Chief Executive Officer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      img = "ceo.jpg"
-      alt = "CEO"
+      position = "Managing Director"
+      description = "The impetus to start a business comes in many forms; for Subesh Tamrakar, co-founder of Ultranet Communication, it was an abrupt firing that sparked the fire on his previos employer overseas. Later, He was convinced by family and college friends to open a internet service center; His wife arranged the financing and the rest is history. Today, Ultranet has nearly full coverage hotspots and boosts their internet subsribers to 23000 in the Kavre district."
+      img = "subesh.jpg"
+      alt = "Managing Director of Ultranet Communication"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-twitter", "https://www.twitter.com/sutamra/"],
+        ["icon-facebook", "https://www.facebook.com/sutamra/"],
+        ["icon-instagram", "https://www.instagram.com/sutamra/"]
       ]
 
     [[params.about.item]]
-      name = "Ramhmi Shrestha"
-      position = "Chief Marketing Officer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      img = "cmo.jpg"
-      alt = "CMO"
+      name = "Situ Sainju"
+      position = "ISP Civil Engineer"
+      description = "An environmental and civil engineer, Situ Sainju, was the one who demostrates and engineeiring submarine cable network infrastructure in the company. That turned into the end result: Ultranet was launched and live. Though Subesh and Situ faced skepticism in the early days they forged ahead, creating a huge demanding internet industry in the region that’s still alive and kicking."
+      img = "situ.jpg"
+      alt = "Head of ISP Enginner of Ultranet Communication"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-twitter", "https://www.twitter.com/situ.sainju"],
+        ["icon-facebook", "https://www.facebook.com/situ.sainju"],
+        ["icon-instagram", "https://www.instagram.com/situ.sainju"]
       ]
 
     [[params.about.item]]
-      name = "Lossion Tamrakar"
-      position = "Chief Technology Officer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      img = "cto.jpg"
-      alt = "CTO"
+      name = "Sumita Shrestha"
+      position = "Network & Server Engineer "
+      description = " As a Network & Server engineer, Sumita's job is to sees the network as a large collection of discrete, separate functional elements that each have a function that contributes to the operational whole; then focussed on the Operating Systems and the platforms that run on them. Each system is discrete, and her tasks then transform to the convenient of the uninterrupted and fast internet service our users are enjoying."
+      img = "sumita.jpg"
+      alt = "Network and Server Engineer of Ultranet Communication"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-instagram", "#"]
       ]
 
   # Counters section
